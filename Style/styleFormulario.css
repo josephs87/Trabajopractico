@@ -1,0 +1,110 @@
+.formularioDeContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background:url(/Imagenes/fondoFormulario.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 1.4em;
+}
+
+.section-titulo {
+  flex-direction: row;
+  height: 40%;
+  width: 40%;
+}
+
+.tituloFormulario {
+  font-size: 5em;
+  text-align: center;
+  color: rgb(33, 30, 30);
+}
+.texto-formulario{
+  font-size: 2em;
+  text-align: center;
+  color: rgb(63, 58, 58);
+}
+
+.formulario {
+  width: 40%;
+}
+
+hr {
+    background: #ee7a40;
+    border-radius: 1em;
+    height: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+.campo-formulario {
+  margin-bottom: 0.5em;
+}
+
+.campo-formulario label {
+  color: rgb(33, 30, 30);
+}
+
+.campo-formulario input,
+.campo-formulario select {
+  width: 100%;
+  padding: 0.3em;
+}
+
+.label-terminos input[type="checkbox"] {
+  margin-right: 0.3em;
+}
+
+.formulario-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1em;
+}
+
+.formulario-checkbox input {
+  width: auto;
+}
+
+.formulario-checkbox label {
+  width: auto;
+}
+
+.textarea-mensaje {
+  width: 100%;
+  height: 6em;
+}
+
+.boton-enviar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.boton-enviar:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 500px){
+  .section-titulo {
+    display: none;
+  }
+  .formulario{
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 768px){
+  .section-titulo {
+    display: none;
+  }
+  .formulario{
+    width: 80%;
+  }
+
+}
